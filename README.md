@@ -1,4 +1,4 @@
-# tightrope
+# levmarq-torch
 
 A basic PyTorch implementation of the Levenberg-Marquardt algorithm. This solves minimization problems of the form
 
