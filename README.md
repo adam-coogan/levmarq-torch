@@ -2,10 +2,9 @@
 
 A basic PyTorch implementation of the Levenberg-Marquardt algorithm. This solves minimization problems of the form
 
-:math:`|\\mathbf{y} - \\mathbf{\\hat{y}}(\\mathbf{x})|^2`.
+$$|\\mathbf{y} - \\mathbf{\\hat{y}}(\\mathbf{x})|^2$$.
 
-The implementation is batched over the parameters :math:`\mathbf{x}` and datapoints
-:math:`\mathbf{y}`.
+The implementation is batched over the parameters $\mathbf{x}$ and datapoints $\mathbf{y}$.
 
 Based on implementation 1 from `Gavin 2022 <https://people.duke.edu/~hpgavin/ExperimentalSystems/lm.pdf>`_.
 
