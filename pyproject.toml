@@ -1,0 +1,26 @@
+[project]
+name = "levmarq_torch"
+version = "0.0.1"
+authors = [{name = "Adam Coogan", email = "dr.adam.coogan@gmail.com"}]
+description = "Basic PyTorch implementation of the Levenberg-Marquardt algorithm"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = []
+dependencies = ["torch"]
+
+[project.urls]
+homepage = "https://github.com/adam-coogan/levmarq-torch"
+repository = "https://github.com/adam-coogan/levmarq-torch"
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
