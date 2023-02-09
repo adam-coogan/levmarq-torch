@@ -6,7 +6,7 @@ $$\mathbf{x}^* = \operatorname{argmin}_{\mathbf{x}} |\mathbf{y} - \mathbf{\hat{y
 
 The implementation is batched over the parameters $\mathbf{x}$ and datapoints $\mathbf{y}$.
 
-Based on implementation 1 from `Gavin 2022 <https://people.duke.edu/~hpgavin/ExperimentalSystems/lm.pdf>`_.
+Based on implementation 1 from [Gavin 2022](https://people.duke.edu/~hpgavin/ExperimentalSystems/lm.pdf).
 
 ## Installation
 
