@@ -1,3 +1,4 @@
+[![PyPI version](https://badge.fury.io/py/levmarq-torch.svg)](https://badge.fury.io/py/levmarq-torch)
 # levmarq-torch
 
 A basic PyTorch implementation of the Levenberg-Marquardt algorithm. This solves minimization problems of the form
@@ -11,10 +12,4 @@ and some help from [Connor Stone](https://github.com/ConnorStoneAstro/).
 
 ## Installation
 
-Running
-```
-git clone git@github.com:adam-coogan/levmarq-torch.git
-cd levmarq-torch
-pip install .
-```
-will install the `levmarq_torch` package.
+Just run `pip install levmarq-torch`.
