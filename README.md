@@ -2,7 +2,7 @@
 
 A basic PyTorch implementation of the Levenberg-Marquardt algorithm. This solves minimization problems of the form
 
-$$\mathbf{x}^* = \operatorname{argmin}_{\mathbf{x}} |\mathbf{y} - \mathbf{\hat{y}}(\mathbf{x})|^2 \, .$$
+$$\mathbf{x}^* = \mathrm{argmin}_{\mathbf{x}} |\mathbf{y} - \mathbf{\hat{y}}(\mathbf{x})|^2 \, .$$
 
 The implementation is batched over the parameters $\mathbf{x}$ and datapoints $\mathbf{y}$.
 
